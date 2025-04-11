@@ -52,5 +52,6 @@ public class AddEbookToCart extends BaseDriver {
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(), 'Invalid promo code')]")));
         System.out.println("Geçersiz promosyon kodu uyarısı başarıyla görüntülendi.");
+        BekleKapat();
 
 } }
